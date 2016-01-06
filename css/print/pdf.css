@@ -50,6 +50,10 @@ body, p, td, li, div {
 	font-size: 18pt;
 }
 
+p, ul, div { 
+	color: black; 
+}
+
 /* SECTION 4: Set heading font face, sizes, and color.
    Diffrentiate your headings from your body text.
    Perhaps use a large sans-serif for distinction. */
