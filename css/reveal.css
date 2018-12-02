@@ -95,11 +95,11 @@ body {
 .left{float:left}
 .right{float:right}
 .clear{clear:both}
-.blue{color:#01A9B4 }
-.green{color:#92BB44}
-.yellow{color:#EDAB23}
-.pink{color:#F05B62}
-.red{color:#8B0036}
+.blue{color:#1A1735 }
+.green{color:#B7D7CF}
+.yellow{color:#F0E182}
+.pink{color:#BF4E49}
+.red{color:#7D214B}
 
 /*********************************************
  * HEADERS
@@ -220,13 +220,14 @@ body {
 .reveal ol,
 .reveal ul {
 	display: inline;
-
-	text-align: center;
-	margin: 0 0 0 1em;
 }
 
 .reveal ol {
 	list-style-type: decimal;
+}
+
+.reveal ol li {
+	margin-left: 1em;
 }
 
 .reveal ul {
@@ -537,8 +538,6 @@ body {
 	padding: 20px 0px;
 	overflow: visible;
 	z-index: 1;
-
-	text-align: center;
 
 	-webkit-transition: -webkit-perspective .4s ease;
 	   -moz-transition: -moz-perspective .4s ease;

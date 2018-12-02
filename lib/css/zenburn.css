@@ -100,6 +100,7 @@ pre .shebang,
 pre .diff .addition,
 pre .comment,
 pre .java .annotation,
+pre .csharp,
 pre .template_comment,
 pre .pi,
 pre .doctype {

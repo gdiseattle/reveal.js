@@ -26,13 +26,13 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fcf3e0;
-  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #fcf3e0 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #fcf3e0));
-  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #fcf3e0 100%);
-  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #fcf3e0 100%);
-  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #fcf3e0 100%);
-  background: radial-gradient(center, circle cover, #f7fbfc 0%, #fcf3e0 100%);
+  background: #ffffff;
+  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #ffffff 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #ffffff));
+  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #ffffff 100%);
+  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #ffffff 100%);
+  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #ffffff 100%);
+  background: radial-gradient(center, circle cover, #f7fbfc 0%, #ffffff 100%);
   background-color: #f7fbfc; }
 
 .reveal {
@@ -61,7 +61,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #f05b62;
+  color: #BF4E49;
   font-family: "Gotham-Bold", Impact, sans-serif;
   line-height: 0.9em;
   text-transform: uppercase;
@@ -95,10 +95,7 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px;
   background: rgba(255, 255, 255, 0.12);
-  height: 400px;
-  width: 400px;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
